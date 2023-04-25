@@ -1,0 +1,87 @@
+#container{
+    margin-left: 300px;
+    /* position: ; */
+}
+.image{
+    width: 500px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: blue;
+}
+.search{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: blue;
+}
+.text{
+    color: rgb(162, 0, 255);
+}
+#bookmark{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: blue;
+}
+#imagebox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 600px;
+    row-gap: 20px;
+    column-gap: 6px;
+    margin-left: 13px;
+    /* position:fixed; */
+}
+.qimg{
+    width: 190px;
+    height: 150px;
+    position: relative;
+}
+img:hover  +div{
+    visibility: hidden
+    
+}
+#add{
+    position: relative;
+    visibility: visible;
+    z-index: 2;
+    width: 190px;
+    height: 30px;
+    /* border: 2px solid red; */
+    margin-left: -190px;
+    margin-top: 110px;
+    color: blue;
+    text-align: center;
+}
+#Bookcontainer{
+    width:100px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-left: 500px;
+}
+#bimg{
+    width: 20px;
+}
+.btext{
+    text-align: center;
+    color: blue;
+}
+
+.bookimages{
+    width: 190px;
+    height: 150px;
+}
+.bookimagebox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 600px;
+    row-gap: 20px;
+    column-gap: 6px;
+    margin-left: 150px;
+
+}
